@@ -18,7 +18,7 @@ To use the calculator, simply click on the buttons to enter numbers and operator
 
 ## Screenshots
 
-![Calculator Screenshot](screenshot1.png)
+![Calculator Screenshot](https://github.com/enesc54/Calculator/blob/main/Screenshots/screenshot1.png)
 
 
 
