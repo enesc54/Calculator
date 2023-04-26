@@ -15,12 +15,12 @@ function insert(sender){
             isCalculated = false
         }
         isNumber = true
-    }else if (isNumber){
-        isCalculated = false
-        isNumber = false
-    }else{
+    }else if (!isNumber){
         del()
         isCalculated = false
+    }else{
+        isCalculated = false
+        isNumber = false
     }
     display.textContent += sender.textContent
     operation += sender.id
