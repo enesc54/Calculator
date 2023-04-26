@@ -21,7 +21,7 @@ function insert(sender){
         del()
         isCalculated = false
         display.textContent += sender.textContent
-    operation += sender.id
+        operation += sender.id
     }else{
         isCalculated = false
         isNumber = false
