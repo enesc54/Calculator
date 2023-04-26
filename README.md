@@ -18,7 +18,7 @@ To use the calculator, simply click on the buttons to enter numbers and operator
 
 ## Screenshots
 
-![Calculator Screenshot](/Screenshots/screenshot.png)
+![Calculator Screenshot](/Screenshots/screenshot1.png)
 
 ## Contributing
 
