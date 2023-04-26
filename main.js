@@ -15,15 +15,18 @@ function insert(sender){
             isCalculated = false
         }
         isNumber = true
+        display.textContent += sender.textContent
+    operation += sender.id
     }else if (!isNumber){
         del()
         isCalculated = false
+        display.textContent += sender.textContent
+    operation += sender.id
     }else{
         isCalculated = false
         isNumber = false
     }
-    display.textContent += sender.textContent
-    operation += sender.id
+    
 }
 
 function del(){
