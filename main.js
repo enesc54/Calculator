@@ -25,14 +25,12 @@ function insert(sender){
 function del(){
     operation = operation.slice(0,operation.length - 1)
     display.textContent = display.textContent.slice(0, display.textContent.length - 1)
-    isNumber = true
 }
 
 function clr(){
     operation = ""
     display.textContent = ""
     isCalculated = false
-    isNumber = true
 }
 
 function calc(){
