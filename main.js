@@ -3,10 +3,6 @@ isCalculated = false
 let operation = ''
 isNumber = true
 
-function displayChanged(){
-    console.log("changed")
-}
-
 function insert(sender){
     if (sender.className.includes("numbers")){
         if (isCalculated){
