@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Braah+One&display=swap');
 *{
     font-size: 50px;
     background-color: #fafafa;
+    font-family: 'Braah One', sans-serif;
 }
 
 .calculator{
